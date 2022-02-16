@@ -2,7 +2,7 @@ import socket
 
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # создаем сокет
-sock.bind(('', 5050))  # связываем сокет с портом, где он будет ожидать сообщения
+sock.bind(('', 7070))  # связываем сокет с портом, где он будет ожидать сообщения
 sock.listen(10)  # указываем сколько может сокет принимать соединений
 print('Server is running, please, press ctrl+c to stop')
 while True:
